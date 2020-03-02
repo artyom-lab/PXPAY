@@ -1,0 +1,83 @@
+@media (min-width: 576px)
+
+@media (min-width: 768px)
+	.btn-light
+		min-width: 165px
+
+	.navbar
+		&.fixed-top:not(.sticky)
+			padding-top: 25px
+			padding-bottom: 25px
+			.navbar-brand
+				&:before 
+					width: 143px
+					height: 49px
+
+	.section
+		.container
+			position: absolute
+			left: 0
+			right: 0
+			top: 50%
+			transform: translateY(-50%)
+
+@media (min-width: 992px)
+
+@media (min-width: 1200px)
+	.container 
+		max-width: 1160px
+
+	.section
+		ul 
+			li 
+				+ li:after 
+					left: 20px
+					width: 689px
+
+
+
+@media (max-width: 1199px)
+	.section
+		> img 
+			width: 500px
+
+@media (max-width: 991px)
+	.h1, h1
+		font-size: 37px
+		line-height: 1
+		margin-bottom: 36px
+	.h2, h2
+		font-size: 25px
+		margin-bottom: 13px
+	.h3, h3
+		font-size: 20px
+		line-height: normal
+		margin-bottom: 15px
+
+	.section
+		> img 
+			width: 450px
+		ul 
+			font-size: 15px
+			li 
+				padding-top: 20px
+				padding-bottom: 20px
+
+@media (max-width: 767px)
+	.section-hero
+		min-height: 100vh
+		padding-top: 120px
+		padding-bottom: 40px
+
+	.section, .section-6, .section-7, .section-8
+		padding-top: 66px
+		padding-bottom: 66px
+
+	.section
+		> img 
+			display: none
+
+	.box
+		padding-top: 44px
+
+@media (max-width: 575px)
